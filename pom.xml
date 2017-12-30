@@ -17,7 +17,7 @@
 		<spring.security.version>3.2.8.RELEASE</spring.security.version>
 		<spring.security.oauth.version>2.0.8.RELEASE</spring.security.oauth.version>
 		<spring.data.version>1.8.2.RELEASE</spring.data.version>
-		<hibernate.version>4.2.6.Final</hibernate.version>
+		<hibernate.version>4.3.6.Final</hibernate.version>
 		<activemq.version>5.9.0</activemq.version>
 		<h2.version>1.4.187</h2.version>
 		<jackson.databind.version>2.3.2</jackson.databind.version>
@@ -69,16 +69,8 @@
 				<artifactId>spring-data-jpa</artifactId>
 				<version>${spring.data.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>org.hibernate</groupId>
-				<artifactId>hibernate-entitymanager</artifactId>
-				<version>${hibernate.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.h2database</groupId>
-				<artifactId>h2</artifactId>
-				<version>${h2.version}</version>
-			</dependency>
+
+
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-jms</artifactId>
@@ -114,7 +106,9 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.databind.version}</version>
+
 		</dependency>
+
 		<!-- test -->
 		<dependency>
 			<groupId>junit</groupId>
