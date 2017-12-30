@@ -1,0 +1,4 @@
+com\sac\jms\BankAccountJmsConsumer.class
+com\sac\jms\Constants.class
+com\sac\jms\BankAccountJmsProducer.class
+com\sac\jms\config\JmsConfig.class

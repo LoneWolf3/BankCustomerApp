@@ -1,0 +1,5 @@
+com\sac\service\impl\BankAccountServiceImpl.class
+com\sac\service\impl\AppUserRoleServiceImpl.class
+org\ServiceModule\App.class
+com\sac\service\config\CachingConfig.class
+com\sac\service\impl\AppUserServiceImpl.class

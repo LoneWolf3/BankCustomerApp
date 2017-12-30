@@ -1,0 +1,8 @@
+com\sac\persistence\model\BankAccountEntity.class
+com\sac\persistence\repository\BankAccountRepository.class
+com\sac\persistence\repository\AppUserRoleRepository.class
+com\sac\persistence\repository\AppUserRepository.class
+com\sac\persistence\config\PersistenceConfig.class
+com\sac\persistence\model\AppUserEntity.class
+com\sac\persistence\model\AppUserRoleEntity.class
+com\sac\persistence\model\AppUserRoleKey.class
